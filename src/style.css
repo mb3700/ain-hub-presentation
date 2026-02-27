@@ -322,6 +322,30 @@ strong { font-weight: 600; }
 .rev-label { margin-top: 12px; font-size: 14px; color: rgba(255,255,255,0.6); font-weight: 500; }
 .rev-note { font-size: 14px; color: rgba(255,255,255,0.5); text-align: center; max-width: 600px; margin: 0 auto; }
 
+/* ===== RECENT LEADS ===== */
+.recent-leads { margin-top: 48px; }
+.leads-intro {
+  font-size: 15px; color: rgba(255,255,255,0.5); margin-bottom: 24px;
+}
+.leads-grid {
+  display: flex; flex-wrap: wrap; gap: 12px;
+}
+.lead-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 10px 20px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.8);
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.lead-chip:hover {
+  background: rgba(100, 181, 246, 0.15);
+  border-color: rgba(100, 181, 246, 0.4);
+  color: #fff;
+}
+
 /* ===== VERTICALS ===== */
 .verticals { margin: 48px 0; }
 .vert-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
